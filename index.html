@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- <link rel="stylesheet" href="css/master_rtl.css" /> -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.rtl.min.css" /> -->
+
+    <title>Bilix Design</title>
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <section>
+      <div class="container">
+        <div class="header-area" id="home">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img class="logo" src="/imgs/logo.png" alt="" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link"
+                      href="about_us.html"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      About Billx
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <div class="d-flex">
+                        <img
+                          class="dropdown_img"
+                          src="/imgs/ABOUT_US/Contact us-pana 1.png"
+                          alt="dropdown-img"
+                        />
+                        <div class="dropdown_menu_links">
+                          <li>
+                            <a class="dropdown-item" href="about_us.html"
+                              >About Us</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="support_request.html"
+                              >support_reques</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                          </li>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="plans.html">Plans</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html">CONTACT US</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <a href="try-for-free.html" class="nav_btn">Try for free</a>
+                  <a href="login.html" class="nav_btn_login">Login</a>
+                  <a href="#" class="nav_btn_ar">AR</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Start landing 1 -->
+    <section class="mt-5 pt-4">
+      <img class="landing" src="/imgs/b-g-landing.png" alt="" />
+      <div class="landing_introduction">
+        <div class="landing-text">
+          <p class="welcome">
+            <img src="/imgs/WELCOME.png" alt="WELCOME-imgs" />
+            WELCOME
+          </p>
+          <h2>Monitor Your <a href="#">Business</a> On real-time dashboard</h2>
+          <label class="lorem-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+            nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam
+            vitae nibh nunc mattis imperdiet sed nullam.
+          </label>
+          <div>
+            <button class="landing-button">Try for free</button>
+            <a class="video_icon" href="#">
+              <label
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <img src="/imgs/vid.jpeg" alt="Watch video" />
+                Watch video
+              </label>
+
+              <!-- Modal -->
+              <div
+                style="top: 100px"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div class="video">
+                        <video width="100%" src="/imgs/modal_video.mp4"></video>
+                      </div>
+                    </div>
+                    <div class="modal-footer p-0 m-0">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="landing-img">
+          <img src="/imgs/img-landing.png" alt="img-landing" />
+        </div>
+      </div>
+
+      <img class="landing2" src="/imgs/b-g-landing2.png" alt="" />
+      <!-- (vector1 left to right) -->
+      <img class="vector1" src="/imgs/Vector1.png" alt="" />
+      <!-- (Vector2 right to left) -->
+      <!-- <img class="vector1" src="/imgs/Vector2.png" alt="" /> -->
+    </section>
+    <!-- End landing 1 -->
+
+    <!-- Start Features 2 -->
+    <section class="features">
+      <img
+        class="top-features"
+        src="/imgs/top-features.png"
+        alt="top-features"
+      />
+      <h2>Main Features</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi
+        aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh
+        nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
+        pulvinar sit amet. Id vel in nam malesuada.
+      </p>
+      <div class="feat_cards">
+        <div class="feat_box">
+          <img src="imgs/Icon-features.png" alt="" />
+          <h4>Monitoring 24/7</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum
+            nisi aliquet volutpat.
+          </p>
+        </div>
+
+        <div class="feat_box">
+          <img src="imgs/Icon-features2.png" alt="" />
+          <h4>Widget System</h4>
+          <p>
+            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae
+            et, tortor pulvinar risus pulvinar.
+          </p>
+        </div>
+
+        <div class="feat_box">
+          <img src="imgs/Icon-features3.png" alt="" />
+          <h4>Best Performance</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum
+            nisi aliquet volutpat.
+          </p>
+        </div>
+      </div>
+      <img
+        class="bottom-features"
+        src="/imgs/Union_bottom.png"
+        alt="top-features"
+      />
+    </section>
+    <!-- End Features 2 -->
+
+    <!-- Start Hosting 3 -->
+    <section class="hosting" id="plans">
+      <h2>Shared Cloud SSD Hosting Powered by cPanel</h2>
+      <p>
+        NOW WITH FREE DOMAIN FOR LIFE AND FREE WEBSITE TRANSFER ON ALL PLANS
+      </p>
+      <div class="hos_buttons">
+        <button
+          class="hos_button_shared"
+          id="button_shared1"
+          onmouseover="changeColore(1)"
+          onclick="changeColore(1)"
+        >
+          Shared Hosting
+        </button>
+        <button
+          class="hos_buttons_cloud"
+          id="button_shared2"
+          onmouseover="changeColore(2)"
+          onclick="changeColore(2)"
+        >
+          Cloud VPS Hosting
+        </button>
+        <button
+          class="hos_buttons_dedicated"
+          id="button_shared3"
+          onmouseover="changeColore(3)"
+          onclick="changeColore(3)"
+        >
+          Dedicated CPU Servers
+        </button>
+      </div>
+
+      <div class="all_cards">
+        <div class="hos_card" onmouseover="changeColore(1)" id="hos_card1">
+          <h4>FastCloud Plus</h4>
+          <p>The national average cost of buying coin easy.</p>
+          <h2>$5 <small>/month</small></h2>
+          <button class="www">Select Plan</button>
+          <div class="card_body">
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>5 collections</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Worldwide accessbility</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>25 automation actions</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Access all features</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>24 hours support</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="del_check form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <del>Sync accross devices</del>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="del_check form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <del>Share with more 5 users</del>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hos_card" id="hos_card2" onmouseover="changeColore(2)">
+          <h4>FastCloud Plus</h4>
+          <p>The national average cost of buying coin easy.</p>
+          <h2>$12 <small>/month</small></h2>
+          <button>Select Plan</button>
+          <div class="card_body">
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>5 collections</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Worldwide accessbility</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>25 automation actions</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Access all features</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>24 hours support</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Sync accross devices</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Share with more 5 users</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hos_card" id="hos_card3" onmouseover="changeColore(3)">
+          <h4>FastCloud Plus</h4>
+          <p>The national average cost of buying coin easy.</p>
+          <h2>$16 <small>/month</small></h2>
+          <button>Select Plan</button>
+          <div class="card_body">
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>5 collections</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Worldwide accessbility</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>25 automation actions</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Access all features</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>24 hours support</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Sync accross devices</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_collections">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <span>Share with more 5 users</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hosting 3 -->
+
+    <!-- Start Platform 4 -->
+    <section class="Platform" id="about_us">
+      <div class="all_Platform">
+        <div class="Platform_text">
+          <h2>The Most Trusted <small>BILLX</small> Platform</h2>
+          <h3><span>01</span>Sync between platforms</h3>
+          <p>
+            No matter if you're using our web interface or mobile app — your
+            data is always synced. Just one account for all our services.
+          </p>
+
+          <h3><span>02</span>More focus, less clutter</h3>
+          <p>No ads, just the crypto and content you love.</p>
+
+          <h3><span>03</span>Security by default</h3>
+          <p>Enable privacy mode and app locking to protect your data.</p>
+        </div>
+
+        <div class="Platform_img">
+          <img src="/imgs/Website.png" alt="" />
+        </div>
+        <img class="Platform_Vector1" src="/imgs/Vector5555555.png" alt="" />
+        <img class="Platform_Vector2" src="/imgs/Vector2.png" alt="" />
+      </div>
+    </section>
+    <!-- End Platform 4 -->
+
+    <!-- Start Banner 5 -->
+    <section class="banner">
+      <img class="img_banner" src="/imgs/Rectangle 4200.png" alt="img-banner" />
+      <img class="img_banner" src="/imgs/coinbase.png" alt="img-banner" />
+      <img class="img_banner" src="/imgs/Group 97.png" alt="img-banner" />
+      <img class="img_banner" src="/imgs/Group 98.png" alt="img-banner" />
+      <img class="img_banner" src="/imgs/bitmex logo.png" alt="img-banner" />
+    </section>
+    <!-- End Banner 5 -->
+
+    <!-- Start joined 6 -->
+    <section class="joined">
+      <div class="div_joined">
+        <h2>99k</h2>
+        <p>People have joined</p>
+      </div>
+
+      <div>
+        <img src="/imgs/Line 42.png" alt="img_joined" />
+      </div>
+
+      <div class="div_joined">
+        <h2>50k</h2>
+        <p>VVIP users have joined</p>
+      </div>
+
+      <div>
+        <img src="/imgs/Line 42.png" alt="img_joined" />
+      </div>
+
+      <div class="div_joined">
+        <h2>100k</h2>
+        <p>Big Companies have joined</p>
+      </div>
+    </section>
+    <!-- End joined 6 -->
+
+    <!-- Start Background 7 -->
+    <section class="background">
+      <div class="all_background">
+        <div class="background_img">
+          <img src="/imgs/Image 1.png" alt="" />
+        </div>
+        <div class="background_text">
+          <h2>Start your free trial today</h2>
+          <p>
+            It is a long established fact that a reader will be by the readable
+            when looking at it layout.
+          </p>
+          <div class="background_buttons">
+            <input
+              class="background-button1"
+              type="text"
+              placeholder="your mail here..."
+            />
+            <button class="background-button2">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Background 7 -->
+
+    <!-- Start Contact Us 8 -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch today!</p>
+
+      <div class="all_contact">
+        <img class="vector88" src="/imgs/Vector88.png" alt="" />
+
+        <div class="contact_text">
+          <img src="/imgs/logo.png" alt="" />
+          <p>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing
+          </p>
+
+          <div class="call_us">
+            <div>
+              <img src="/imgs/Icon1.png" alt="" />
+              <span>Call Us</span>
+            </div>
+            <p>+001 6547 6589</p>
+          </div>
+
+          <div class="call_us">
+            <div>
+              <img src="/imgs/Icon2.png" alt="" />
+              <span>Mail Us</span>
+            </div>
+            <p>username@info.com</p>
+          </div>
+
+          <div class="call_us">
+            <div>
+              <img src="/imgs/Icon3.png" alt="" />
+              <span>Social</span>
+            </div>
+            <div>
+              <a href="#"> <i class="social fa-brands fa-facebook"></i> </a>
+              <a href="#"> <i class="social fa-brands fa-twitter"></i> </a>
+              <a href="#"> <i class="social fa-brands fa-instagram"></i> </a>
+              <a href="#"> <i class="social fa-brands fa-youtube"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <form>
+          <div class="first-name">
+            <div class="left">
+              <label for="#">First Name</label>
+              <input type="text" placeholder="Mohamed" name="username" />
+            </div>
+
+            <div class="right">
+              <label for="#">Last Name</label>
+              <input type="text" placeholder="Ahmed" name="phone" />
+            </div>
+          </div>
+
+          <div class="first-name">
+            <div class="left">
+              <label for="#">Email</label>
+              <input
+                type="email"
+                placeholder="Username@mail.com"
+                name="Email"
+              />
+            </div>
+
+            <div class="right">
+              <label for="#">Phone Number</label>
+              <input type="phone" placeholder="+1000004854" name="phone" />
+            </div>
+          </div>
+
+          <div class="first-name">
+            <div class="left">
+              <label for="#">Message</label>
+              <textarea
+                name="message"
+                placeholder="Write your message.."
+              ></textarea>
+            </div>
+
+            <div class="right">
+              <button class="form_button">Send</button>
+            </div>
+          </div>
+        </form>
+
+        <img class="vector8" src="/imgs/Vector8.png" alt="" />
+      </div>
+    </section>
+    <!-- End Contact Us 8 -->
+
+    <!-- Start Footer -->
+    <section class="footer">
+      <img class="shape_left" src="/imgs/Shape Left.png" alt="#" />
+
+      <div class="all_boxs">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="box">
+              <a href="index.html">
+                <img
+                  class="footer_logo"
+                  src="imgs/footer logo.png"
+                  alt="footer-logo"
+                />
+              </a>
+              <p class="to-start">Get ready to start with us</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <div class="box">
+              <h5>Basic links</h5>
+              <a href="#home">Home</a>
+              <a href="#plans">Plans</a>
+              <a href="#about_us">About Us</a>
+              <a href="#contact_us">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="box">
+              <h5>Contact us</h5>
+              <a href="about-us.html">
+                <img
+                  class="img_footer"
+                  src="/imgs/akar-icons_location.png"
+                  alt=""
+                />
+                124 Brooklyn, New York United States</a
+              >
+              <a href="contact-us.html">
+                <img class="img_footer" src="/imgs/bi_phone.png" alt="" />
+                +001 6547 6589</a
+              >
+              <a href="index.html">
+                <img class="img_footer" src="/imgs/codicon_mail.png" alt="" />
+                username@info.com</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <div class="box">
+              <h5>Join Newsletter</h5>
+              <input
+                class="input"
+                type="text"
+                placeholder="your mail here..."
+              />
+              <button class="button2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        Copyright Mohamed Mahmoud © 2020. All Rights Reserved.
+      </div>
+    </section>
+    <!-- End Footer -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      function changeColore(id) {
+        if (id == 1) {
+          document.getElementById("hos_card1").classList.add("hos_card_hover");
+          document
+            .getElementById("button_shared1")
+            .classList.add("hos_card_hover");
+
+          document
+            .getElementById("hos_card2")
+            .classList.remove("hos_card_hover");
+          document
+            .getElementById("button_shared2")
+            .classList.remove("hos_card_hover");
+
+          document
+            .getElementById("hos_card3")
+            .classList.remove("hos_card_hover");
+          document
+            .getElementById("button_shared3")
+            .classList.remove("hos_card_hover");
+        } else if (id == 2) {
+          document
+            .getElementById("hos_card1")
+            .classList.remove("hos_card_hover");
+          document
+            .getElementById("button_shared1")
+            .classList.remove("hos_card_hover");
+
+          document.getElementById("hos_card2").classList.add("hos_card_hover");
+          document
+            .getElementById("button_shared2")
+            .classList.add("hos_card_hover");
+
+          document
+            .getElementById("hos_card3")
+            .classList.remove("hos_card_hover");
+          document
+            .getElementById("button_shared3")
+            .classList.remove("hos_card_hover");
+        } else {
+          document
+            .getElementById("hos_card1")
+            .classList.remove("hos_card_hover");
+          document
+            .getElementById("button_shared1")
+            .classList.remove("hos_card_hover");
+
+          document
+            .getElementById("hos_card2")
+            .classList.remove("hos_card_hover");
+          document
+            .getElementById("button_shared2")
+            .classList.remove("hos_card_hover");
+
+          document.getElementById("hos_card3").classList.add("hos_card_hover");
+          document
+            .getElementById("button_shared3")
+            .classList.add("hos_card_hover");
+        }
+      }
+    </script>
+  </body>
+</html>
